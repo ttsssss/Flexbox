@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: cornflowerblue;
+}
+
+h2 {
+    font-size: 27px;
+    color: white;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexbox-item {
+    width: 350px;
+    height: 400px;
+    border: coral;
+}
+
+.one {
+    flex-shrink: 0;
+}
+
+.two {
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+.three {
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+.second-container {
+    /* make style changes here diff from 1st container */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-content: space-around;
+}
+
+.five {
+    flex-grow: 2;
+    flex-shrink: 1;
+}

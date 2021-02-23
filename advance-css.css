@@ -1,0 +1,70 @@
+* {
+  cursor:  pointer;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.big {
+    font-size: large;
+}
+
+.tiny {
+    font-size: x-small;
+}
+
+.right {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.font {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list {
+    list-style-type: upper-roman;
+}
+
+.attributes {
+    color: orange;
+    font: 40px;
+}
+
+.li:hover {
+    color: rgb(228, 154, 228);
+    background-color: royalblue;
+    font-size: 20px;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 30px;
+    border: salmon solid 2px;
+    justify-content: space-between;
+    /* height: 25px;
+    width: 20px; */
+}
+
+#stlyedimage {
+    border: rgb(228, 154, 228) 40px inset;
+    border-radius: 40%;
+}
